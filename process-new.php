@@ -1,13 +1,8 @@
-Thanks for submitting!<br>
-Good location! -> <?php echo $_POST['loc']; ?>.<br>
-DESC: <?php echo $_POST['desc']; ?><br>
 <?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   date_default_timezone_set('America/New_York');
   $d = time();
   $ddisp = date("n/j/y h:i:sa");
-?>
-Time: <?php echo $d ?>.<br>
-<?php
   mkdir("posts", 0755, true);
   $fname = "posts/" . $d . ".post";
   $fcontents =
@@ -16,4 +11,6 @@ Time: <?php echo $d ?>.<br>
     substr($_POST['desc'], 0, 100);
   file_put_contents($fname,
     $fcontents);
+}
+echo "<script>window.location.replace('/');</script>";
 ?>

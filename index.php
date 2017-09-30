@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" hred="css/post.css">
   </head>
   <body>
   	<div class="jumbotron text-left">
@@ -20,7 +21,7 @@ require 'posts.php';
 
 	<div class="container form">
 		<div class="row">
-		    <form action="new-post.php" method="post">
+		    <form action="process-new.php" method="post">
 		    	<div class="form-group">
 		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
 		    		<input type="text" class="form-control" name="desc" placeholder="Description?">
