@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" hred="css/post.css">
   </head>
   <body>
-  	<div class="jumbotron text-center">
+  	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
 	</div>
 
