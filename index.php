@@ -48,7 +48,7 @@ require 'posts.php';
 		    <form action="process-new.php" method="post">
 		    	<div class="form-group">
 		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
-		    		<input type="text" class="form-control" name="desc" placeholder="Description?">
+		    		<input type="text" class="form-control" name="desc" placeholder="Description? (Room #, Access to location, etc.)">
 		    	</div>
 		    	<button type="submit" class="btn btn-primary">Submit</button>
 		    </form>
