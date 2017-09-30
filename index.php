@@ -71,7 +71,7 @@ require 'posts.php';
 					<img class="center-block img-responsive" src="AounLogo_transparent_small.png">
 				</div>
 				<div class="col">
-					<p class="text-left">Visit us on GitHub @ <a href="https://github.com/SupremeSteak1/Where-s-Aoun">https://github.com/SupremeSteak1/Where-s-Aoun</a></p>
+					<p class="text-left">Visit us on GitHub @ <a href="https://github.com/SupremeSteak1/Where-s-Aoun">https://github.com/Wheres-Aoun/Wheres-Aoun</a></p>
 				</div>
 			</div>
 		</div>
