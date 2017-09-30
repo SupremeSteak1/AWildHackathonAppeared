@@ -11,6 +11,14 @@ body {
 	background-color: #e8e8e8;
 }
 
-.form {
+.map {
+	width:100%;
+}
+.location-time-map {
+  width: 100%;
+}
 
+iframe {
+	border: 0;
+	width: 100%;
 }
