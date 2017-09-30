@@ -8,7 +8,7 @@ DESC: <?php echo $_POST['desc']; ?><br>
 ?>
 Time: <?php echo $d ?>.<br>
 <?php
-  mkdir("posts");
+  mkdir("posts", 0755, true);
   $fname = "posts/" . $d . ".post";
   $fcontents =
     $ddisp . "\n" .
