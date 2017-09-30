@@ -13,9 +13,9 @@ foreach ($files as &$f) {
   <div class='location-time-map'>
     <div class="location-time">
       <div class="location-formatting">
-        <p class="location">
+        <h1 class="location">
           <?php echo $loc; ?>
-        </p>
+        </h1>
       </div>
       <p class="time">
         <?php echo $date; ?>
