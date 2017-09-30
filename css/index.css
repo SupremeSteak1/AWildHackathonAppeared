@@ -1,6 +1,3 @@
-html {
-
-}
 
 .jumbotron {
 	font-family: "Raleway";
@@ -35,4 +32,9 @@ iframe {
 }
 .form{
 	padding: 5%;
+}
+
+.footer p {
+	color: green;
+	font-size: 10px;
 }

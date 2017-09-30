@@ -60,8 +60,21 @@ require 'posts.php';
 </div>
 
 	<hr>
-	<div class="mx-auto" style="width: 54px">
-		<img src="AounLogo_transparent.png" height=100 class="mx-auto">
+	<!--<div class="mx-auto" style="width: 54px">-->
+	<div class="container">
+		<div class="footer">
+			<div class="row">
+				<div class="col">
+					<p class="text-right">Made with ♥ by Hugh Ferguson, Thomas Hayden, Kyle Sferrazza, Bryce Thuilot, Matt Todd, Niki Uppal, Ian Wolterstorff, and Zach Youssef.</p>
+				</div>
+				<div class="col">
+					<img class="center-block img-responsive" src="AounLogo_transparent_small.png">
+				</div>
+				<div class="col">
+					<p class="text-left">Visit us on GitHub @ <a href="https://github.com/SupremeSteak1/Where-s-Aoun">https://github.com/SupremeSteak1/Where-s-Aoun</a></p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 
