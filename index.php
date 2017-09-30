@@ -65,7 +65,7 @@ require 'posts.php';
 		<div class="footer">
 			<div class="row">
 				<div class="col">
-					<p class="text-right">Made with ♥ by Hugh Ferguson, Thomas Hayden, Kyle Sferrazza, Bryce Thuilot, Matt Todd, Niki Uppal, Ian Wolterstorff, and Zach Youssef.</p>
+					<p class="text-right">Made with ♥ by <a href="https://github.com/HughFerg">Hugh Ferguson</a>, <a href="https://github.com/SupremeSteak1">Thomas Hayden</a>, <a href="https://github.com/kylesferrazza">Kyle Sferrazza</a>, <a href="https://github.com/bthuilot">Bryce Thuilot</a>, <a href="https://github.com/matttodd">Matt Todd</a>, <a href="https://github.com/nikiuppal29">Niki Uppal</a>, <a href="https://github.com/iwolterstorff">Ian Wolterstorff</a>, and <a href="https://github.com/FwoopFwoop">Zach Youssef</a>.</p>
 				</div>
         <div class="col" align="center">
 					<img class="center-block img-responsive" src="AounLogo_transparent_small.png">
