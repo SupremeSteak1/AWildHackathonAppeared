@@ -1,23 +1,16 @@
 <div class='post'>
   <div id='location'>
   </div>
-  <div id="map"></div>
+  <div id="map">
+    <iframe
+       width="600"
+       height="450"
+       frameborder="0" style="border:0"
+       src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxHtKEIHI6MOv63C9kw0X4zDUHiSs8rD8
+       &q=Space+Needle,Seattle+WA" allowfullscreen>
+    </iframe>
+  </div>
   <div class='desc'>
   </div>
 </div>
-<script>
-  function initMap() {
-    var uluru = {lat: -25.363, lng: 131.044};
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 4,
-      center: uluru
-    });
-    var marker = new google.maps.Marker({
-      position: uluru,
-      map: map
-    });
-  }
-</script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
 </script>
