@@ -14,6 +14,10 @@
     	<h1>Where's Aoun??!?</h1>
 	</div>
 
+<?php
+require 'posts.php';
+?>
+
 	<div class="container form">
 		<div class="row">
 		    <form>

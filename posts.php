@@ -8,6 +8,7 @@ foreach ($files as &$f) {
   if ($date == "")
     continue;
 ?>
+<div class="container">
 <div class='row' class='post'>
   <div class='location-time'>
     <div class='location-formatting'>
@@ -36,3 +37,4 @@ foreach ($files as &$f) {
 </div>
 <?php
 }?>
+</div>
