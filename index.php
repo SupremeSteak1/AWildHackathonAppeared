@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Raleway">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
@@ -13,6 +16,7 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
+    	<img src="AounLogo_transparent.png" height=100>
     	<a class="btn btn-primary float-right" role="button"><img src="noun_991633_cc.svg" width=20 height=20></a>
 	</div>
 
