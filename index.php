@@ -12,15 +12,23 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
-    	<a class="btn btn-primary float-right" role="button"><img src="noun_991633_cc.svg" width=20 height=20></a>
+    	<button class="btn btn-primary float-right" data-toggle="modal" data-target="#form-modal"><img src="noun_991633_cc.svg" width=20 height=20></button>
 	</div>
 
 <?php
 require 'posts.php';
 ?>
 
-	<div class="container form">
-		<div class="row">
+<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Submit a new post</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
 		    <form action="process-new.php" method="post">
 		    	<div class="form-group">
 		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
@@ -28,8 +36,13 @@ require 'posts.php';
 		    	</div>
 		    	<button type="submit" class="btn btn-primary">Submit</button>
 		    </form>
+      </div>
+      <div class="modal-footer">
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Discard">Discard</button>
+      </div>
 		</div>
 	</div>
+</div>
 
 
     <!-- Optional JavaScript -->
