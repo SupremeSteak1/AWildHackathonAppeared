@@ -12,4 +12,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   file_put_contents($fname,
     $fcontents);
 }
+echo "<script>window.location.replace('/');</script>";
 ?>

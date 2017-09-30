@@ -16,16 +16,12 @@
 	</div>
 
 <?php
-require 'process-new.php';
-?>
-
-<?php
 require 'posts.php';
 ?>
 
 	<div class="container form">
 		<div class="row">
-		    <form action="index.php" method="post">
+		    <form action="process-new.php" method="post">
 		    	<div class="form-group">
 		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
 		    		<input type="text" class="form-control" name="desc" placeholder="Description?">
