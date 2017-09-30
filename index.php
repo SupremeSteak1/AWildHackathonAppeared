@@ -15,8 +15,7 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
-    	<img src="AounLogo_transparent.png" height=100>
-    	<a class="btn btn-primary float-right" role="button"><img src="noun_991633_cc.svg" width=20 height=20></a>
+    	<a class="btn btn-primary float-right" role="button"><img src="noun_991633_cc.svg" class="img-fluid" width=20 height=20></a>
 	</div>
 
 <?php
@@ -33,6 +32,11 @@ require 'posts.php';
 		    	<button type="submit" class="btn btn-primary">Submit</button>
 		    </form>
 		</div>
+	</div>
+
+	<hr>
+	<div class="mx-auto" style="width: 54px">
+		<img src="AounLogo_transparent.png" height=100 class="mx-auto">
 	</div>
 
 
