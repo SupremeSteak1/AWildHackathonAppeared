@@ -35,7 +35,10 @@
   </head>
   <body>
   	<div class="jumbotron text-left">
-    	<h1>Where's Aoun??!?</h1>
+    	<div>
+			<h1>Where's Aoun??!?</h1>
+			<p>This is a croudsourced website, and only represent the opinions of the poster.</p>
+		</div>
     	<button class="btn btn-light float-right" style="font-size: 20pt; padding:4px;" onclick="location.reload();">refresh</button>
     	<button class="btn btn-light float-right" style="font-size: 20pt; padding:4px;margin-right:10px;" data-toggle="modal" data-target="#form-modal">add post</button>
 	</div>
