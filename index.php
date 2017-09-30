@@ -27,7 +27,8 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
-    	<button class="btn btn-light float-right" data-toggle="modal" data-target="#form-modal">+</button>
+    	<button class="btn btn-light float-right" style="font-size: 20pt; padding:4px;" onclick="location.reload();">refresh</button>
+    	<button class="btn btn-light float-right" style="font-size: 20pt; padding:4px;margin-right:10px;" data-toggle="modal" data-target="#form-modal">add post</button>
 	</div>
 
 <?php
