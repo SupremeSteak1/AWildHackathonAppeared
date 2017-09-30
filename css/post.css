@@ -6,11 +6,12 @@
   width: 50%;
 }
 .location-format{
+  float: left;
   padding: 5%;
 }
 .map{
-
+  float: right;
 }
 .desc{
-
+  clear: both;
 }

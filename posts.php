@@ -22,8 +22,8 @@ foreach ($files as &$f) {
   </div>
   <div class="map">
     <iframe
-       width="600"
-       height="450"
+       width="100"
+       height="100"
        frameborder="0" style="border:0"
        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCQjxdV0gtbzW2a2sF253fckRP4fUUx1u0&q=<?php echo str_replace(" ", "+", $loc); ?>+in+Boston,+MA" allowfullscreen>
     </iframe>
