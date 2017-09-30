@@ -9,7 +9,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+  	<div class="jumbotron text-center"
+    	<h1>Where's Aoun??!?</h1>
+	</div>
+
+	<div class="container">
+		<div class="row">
+		    <form>
+		    	<div class="form-group">
+		    		<input type="text" class="form-control" placeholder="Location?">
+		    		<input type="time" class="form-control" placeholder="Time?">
+		    		<input type="text" class="form-control" placeholder="Description?">
+		    	</div>
+		    	<button type="submit" class="btn btn-primary">Submit</button>
+		    </form>
+		</div>
+	</div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
