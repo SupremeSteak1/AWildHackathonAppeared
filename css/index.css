@@ -1,4 +1,9 @@
+html {
+
+}
+
 .jumbotron {
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	background-color: #cc0000;
 }
 
