@@ -23,7 +23,7 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
-    	<button class="btn btn-primary float-right" data-toggle="modal" data-target="#form-modal"><img src="noun_991633_cc.svg" width=20 height=20></button>
+    	<button class="btn btn-light float-right" data-toggle="modal" data-target="#form-modal">+</button>
 	</div>
 
 <?php
