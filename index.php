@@ -27,7 +27,8 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
-    	<button class="btn btn-light float-right" data-toggle="modal" data-target="#form-modal">+</button>
+    	<button class="btn btn-light float-right" style="font-size: 20pt; padding:4px;" onclick="location.reload();">refresh</button>
+    	<button class="btn btn-light float-right" style="font-size: 20pt; padding:4px;margin-right:10px;" data-toggle="modal" data-target="#form-modal">add post</button>
 	</div>
 
 <?php
@@ -47,7 +48,7 @@ require 'posts.php';
 		    <form action="process-new.php" method="post">
 		    	<div class="form-group">
 		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
-		    		<input type="text" class="form-control" name="desc" placeholder="Description?">
+		    		<input type="text" class="form-control" name="desc" placeholder="Description? (Room #, Access to location, etc.)">
 		    	</div>
 		    	<button type="submit" class="btn btn-primary">Submit</button>
 		    </form>
