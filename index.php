@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,19 +18,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <title>Where's Aoun?</title>
   </head>
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
     	<a class="btn btn-primary float-right" role="button"><img src="noun_991633_cc.svg" class="img-fluid" width=20 height=20></a>
+    	<button class="btn btn-primary float-right" data-toggle="modal" data-target="#form-modal"><img src="noun_991633_cc.svg" width=20 height=20></button>
 	</div>
 
 <?php
 require 'posts.php';
 ?>
 
-	<div class="container form">
-		<div class="row">
+<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Submit a new post</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
 		    <form action="process-new.php" method="post">
 		    	<div class="form-group">
 		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
@@ -31,8 +48,13 @@ require 'posts.php';
 		    	</div>
 		    	<button type="submit" class="btn btn-primary">Submit</button>
 		    </form>
+      </div>
+      <div class="modal-footer">
+		    <button type="button" class="close" data-dismiss="modal" aria-label="Discard">Discard</button>
+      </div>
 		</div>
 	</div>
+</div>
 
 	<hr>
 	<div class="mx-auto" style="width: 54px">
