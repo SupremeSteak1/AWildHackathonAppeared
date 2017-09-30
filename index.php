@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css">
   </head>
   <body>
-  	<div class="jumbotron text-center"
+  	<div class="jumbotron text-center">
     	<h1>Where's Aoun??!?</h1>
 	</div>
 
