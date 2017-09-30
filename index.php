@@ -61,14 +61,13 @@ require 'posts.php';
 </div>
 
 	<hr>
-	<!--<div class="mx-auto" style="width: 54px">-->
 	<div class="container">
 		<div class="footer">
 			<div class="row">
 				<div class="col">
 					<p class="text-right">Made with ♥ by Hugh Ferguson, Thomas Hayden, Kyle Sferrazza, Bryce Thuilot, Matt Todd, Niki Uppal, Ian Wolterstorff, and Zach Youssef.</p>
 				</div>
-				<div class="col">
+        <div class="col" align="center">
 					<img class="center-block img-responsive" src="AounLogo_transparent_small.png">
 				</div>
 				<div class="col">
