@@ -1,3 +1,4 @@
+<div class="container">
 <?php
 $files = scandir("posts", 1);
 foreach ($files as &$f) {
@@ -8,15 +9,14 @@ foreach ($files as &$f) {
   if ($date == "")
     continue;
 ?>
-<div class="container">
-<div class='row' class='post'>
-  <div class='location-time'>
-    <div class='location-formatting'>
-      <p class='location'>
+<div class="row post">
+  <div class="location-time">
+    <div class="location-formatting">
+      <p class="location">
         <?php echo $loc; ?>
       </p>
     </div>
-    <p class='time'>
+    <p class="time">
       <?php echo $date; ?>
     </p>
   </div>
@@ -28,7 +28,7 @@ foreach ($files as &$f) {
        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCQjxdV0gtbzW2a2sF253fckRP4fUUx1u0&q=<?php echo str_replace(" ", "+", $loc); ?>+in+Boston,+MA" allowfullscreen>
     </iframe>
   </div>
-  <div class='desc'>
+  <div class="desc">
     <p class="desc-text">
       <?php echo $desc; ?>
     </p>
