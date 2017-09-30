@@ -25,7 +25,7 @@ foreach ($files as &$f) {
        width="600"
        height="450"
        frameborder="0" style="border:0"
-       src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCxHtKEIHI6MOv63C9kw0X4zDUHiSs8rD8
+       src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCQjxdV0gtbzW2a2sF253fckRP4fUUx1u0
        &q=<?php echo $loc; ?>Northeastern,Boston+MA" allowfullscreen>
     </iframe>
   </div>
