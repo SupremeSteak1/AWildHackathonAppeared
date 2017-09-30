@@ -1,5 +1,8 @@
 .post{
-
+  margin: auto;
+}
+.location-time-map{
+  width: 100%;
 }
 .location-time{
   height: 50%;
@@ -13,5 +16,5 @@
   float: right;
 }
 .desc{
-  clear: both;
+  width: 100%;
 }
