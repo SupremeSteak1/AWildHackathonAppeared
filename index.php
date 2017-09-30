@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="apple-touch-startup-image" href="/apple-touch-icon.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Where's Aoun?">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
@@ -23,8 +27,7 @@
   <body>
   	<div class="jumbotron text-left">
     	<h1>Where's Aoun??!?</h1>
-    	<a class="btn btn-primary float-right" role="button"><img src="noun_991633_cc.svg" class="img-fluid" width=20 height=20></a>
-    	<button class="btn btn-primary float-right" data-toggle="modal" data-target="#form-modal"><img src="noun_991633_cc.svg" width=20 height=20></button>
+    	<button class="btn btn-light float-right" data-toggle="modal" data-target="#form-modal">+</button>
 	</div>
 
 <?php
