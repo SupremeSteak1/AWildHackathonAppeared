@@ -3,8 +3,9 @@ html {
 }
 
 .jumbotron {
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Raleway";
 	background-color: #cc0000;
+	color: azure;
 }
 
 body {
@@ -26,6 +27,7 @@ iframe {
 	background-color: white;
 	box-shadow: 10px 10px 5px #888888;
 	padding: 2%;
+	margin: 2%;
 }
 .time{
 	color: darkgray;
