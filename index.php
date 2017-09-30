@@ -21,11 +21,10 @@ require 'posts.php';
 
 	<div class="container form">
 		<div class="row">
-		    <form>
+		    <form action="new-post.php" method="post">
 		    	<div class="form-group">
-		    		<input type="text" class="form-control" placeholder="Location?">
-		    		<input type="time" class="form-control" placeholder="Time?">
-		    		<input type="text" class="form-control" placeholder="Description?">
+		    		<input type="text" class="form-control" name="loc" placeholder="Location?">
+		    		<input type="text" class="form-control" name="desc" placeholder="Description?">
 		    	</div>
 		    	<button type="submit" class="btn btn-primary">Submit</button>
 		    </form>
