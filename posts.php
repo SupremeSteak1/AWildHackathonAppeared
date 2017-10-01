@@ -3,9 +3,9 @@
 $files = scandir("posts", 1);
 foreach ($files as &$f) {
   $array = array_pad(explode("\n", file_get_contents("posts/" . $f)), 3, null);
-  $date = $array[0];
-  $loc = $array[1];
-  $desc = $array[2];
+  $date = filter_var($array[0], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+  $loc = filter_var($array[1], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+  $desc = filter_var($array[2], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
   if ($date == "")
     continue;
 ?>
