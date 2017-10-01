@@ -9,6 +9,7 @@ foreach ($files as &$f) {
   if ($date == "")
     continue;
 ?>
+
 <div class="row post">
   <div class='location-time-map'>
 	<div class='location-time-report'>
@@ -22,9 +23,10 @@ foreach ($files as &$f) {
 			<?php echo $date; ?>
 		  </p>
 		</div>
-		<div>
-			<form id="report_form" method="post" role="form" action="">
-				<input type="submit" name="report" value="Report">
+		<div class="report">
+			<form id="report_form" method="post" role="form" action="report.php">
+				<input type='hidden' name='var' value='<?php echo "$f";?>'/> 
+				<input type="submit" name="report" id="reportid" alt="Report" value="" style="background:url(flag.png) no-repeat; background-size: 100%; height: 30px; width: 30px; padding: 0; border: none;">
 			</form>
 		</div>
 	</div>

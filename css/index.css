@@ -38,3 +38,18 @@ iframe {
 	color: black;
 	font-size: 12px;
 }
+
+.report {
+	text-align: right;
+}
+
+.location-time-report{
+	display: flex;
+}
+
+.location-time {
+  width: 200px;
+}
+.report {
+  flex: 1;
+}
