@@ -11,16 +11,23 @@ foreach ($files as &$f) {
 ?>
 <div class="row post">
   <div class='location-time-map'>
-    <div class="location-time">
-      <div class="location-formatting">
-        <h1 class="location">
-          <?php echo $loc; ?>
-        </h1>
-      </div>
-      <p class="time">
-        <?php echo $date; ?>
-      </p>
-    </div>
+	<div class='location-time-report'>
+		<div class="location-time">
+		  <div class="location-formatting">
+			<h1 class="location">
+			  <?php echo $loc; ?>
+			</h1>
+		  </div>
+		  <p class="time">
+			<?php echo $date; ?>
+		  </p>
+		</div>
+		<div>
+			<form id="report_form" method="post" role="form" action="">
+				<input type="submit" name="report" value="Report">
+			</form>
+		</div>
+	</div>
     <div class="map">
       <iframe
          frameborder="0"
