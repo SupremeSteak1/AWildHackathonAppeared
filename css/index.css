@@ -1,51 +1,51 @@
 
 .jumbotron {
-	font-family: "Raleway";
-	background-color: #cc0000;
-	color: azure;
+  font-family: "Raleway";
+  background-color: #cc0000;
+  color: azure;
   border-style: dotted;
 }
 
 
 body {
-	background-color: #e8e8e8;
+  background-color: #e8e8e8;
 }
 
 .map {
-	width:100%;
+  width:100%;
 }
 .location-time-map {
   width: 100%;
 }
 
 iframe {
-	border: 0;
-	width: 100%;
+  border: 0;
+  width: 100%;
 }
 .post{
-	background-color: white;
-	box-shadow: 10px 10px 5px #888888;
-	padding: 2%;
-	margin: 2%;
+  background-color: white;
+  box-shadow: 10px 10px 5px #888888;
+  padding: 2%;
+  margin: 2%;
 }
 .time{
-	color: darkgray;
+  color: darkgray;
 }
 .form{
-	padding: 5%;
+  padding: 5%;
 }
 
 .footer p {
-	color: black;
-	font-size: 12px;
+  color: black;
+  font-size: 12px;
 }
 
 .report {
-	text-align: right;
+  text-align: right;
 }
 
 .location-time-report{
-	display: flex;
+  display: flex;
 }
 
 .location-time {
